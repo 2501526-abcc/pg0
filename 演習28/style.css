@@ -1,0 +1,35 @@
+#global-nav{
+    background-color: #005b4f;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+}
+#global-nav ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+#global-nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+#global-nav a:hover{
+    background-color: #f8b77a;
+}
+body{
+    margin: 0;
+}
+.home{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+.home img{
+    width: 40%;
+    margin-left: 60%;
+}
+
+
+    
