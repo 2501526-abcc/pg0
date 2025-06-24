@@ -32,38 +32,37 @@ header {
 .nav-menu li a:hover {
   color: #f1c40f;
 }
+body.dog-theme {
+  background: url("image/paw-bg.png") repeat;
+  background-color: #fff8e7;
+  color: #4b3e2c;
+}
 
-.profile {
-  max-width: 900px;
-  margin: 40px auto;
+.dog-box {
+  background-color: #fffaf2;
+  border: 2px dashed #c59d5f;
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.profile img {
-  width: 300px;
-  border-radius: 8px;
-  margin-right: 30px;
-  flex-shrink: 0;
+.dog-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.intro {
-  flex: 1;
-}
-
-.intro h2 {
-  color: #2c3e50;
+.dog-image {
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-  background-color: #34495e;
-  color: #ffffff;
+  background-color: #1a2633;
+  color: #cccccc;
   text-align: center;
-  padding: 15px;
+  padding: 20px 0;
   margin-top: 60px;
 }

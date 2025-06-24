@@ -33,31 +33,40 @@ header {
   color: #f1c40f;
 }
 
-.profile {
+.container {
   max-width: 900px;
   margin: 40px auto;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 0 20px;
 }
 
-.profile img {
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  gap: 20px;
+}
+
+.content-block img {
   width: 300px;
   border-radius: 8px;
-  margin-right: 30px;
   flex-shrink: 0;
 }
 
-.intro {
-  flex: 1;
+.content-block.reverse {
+  flex-direction: row-reverse;
 }
 
-.intro h2 {
+.content-block h2 {
   color: #2c3e50;
+  margin-top: 0;
+}
+
+.content-block p {
+  line-height: 1.6;
 }
 
 footer {
